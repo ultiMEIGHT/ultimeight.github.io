@@ -1,0 +1,41 @@
+body{
+  background-color: #061072;
+  color: #ffff;
+  margin: 0;
+  padding: 0;
+  font-family: "PressStart2P";
+  font-size: 0.9em;
+}
+
+.single_div{
+  border: 2px solid #FFFF;
+  margin: 20px 20px;
+  padding: 20px;
+}
+
+section{
+  background-color: #ADADAD;
+  color: black;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+a{
+  color: #00A8A8;
+}
+
+nav a:hover{
+  color: #FFFF;
+}
+
+ul{
+  list-style-type: none;
+}
+
+@font-face{
+  font-family: "PressStart2P";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/PressStart2P-Regular.ttf)
+       format("truetype");
+}
